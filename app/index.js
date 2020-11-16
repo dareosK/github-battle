@@ -5,9 +5,9 @@ import ReactDOM from 'react-dom'
 import './index.css'
 // so that the styles are active on the JSX. Works because of the wabpack config,
 // where I have defined the css style loaders
+import Popular from './components/Popular.js'
 
 // COMPONENT
-
 // State
 // Lifecycle
 // UI -> render() describes what the UI looks like
@@ -16,8 +16,8 @@ import './index.css'
 class App extends React.Component {
   render() {
     return (
-      <div>
-        Hello World!
+      <div className='container'>
+        <Popular />
       </div>
     )
   }
