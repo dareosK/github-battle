@@ -6,6 +6,7 @@ import './index.css'
 // so that the styles are active on the JSX. Works because of the wabpack config,
 // where I have defined the css style loaders
 import Popular from './components/Popular.js'
+import Battle from './components/Battle.js'
 
 // COMPONENT
 // State
@@ -17,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='container'>
-        <Popular />
+        <Battle />
       </div>
     )
   }
